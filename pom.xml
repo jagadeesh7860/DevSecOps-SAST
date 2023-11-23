@@ -141,6 +141,11 @@
 				</configuration>
 			</plugin>
 			<plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.0.2</version> <!-- Update to the latest version -->
+        </plugin>
+			<plugin>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.0.2</version>
